@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink font-display antialiased;
+    font-feature-settings: "kern", "liga", "onum";
+  }
+  ::selection {
+    background: #0e5468;
+    color: #f4f0e6;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+    font-feature-settings: "kern", "liga", "onum";
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Fraunces variable: a touch of optical-size + slight softness for body */
+  body {
+    font-variation-settings: "opsz" 18, "SOFT" 30;
+  }
+  h1, h2 {
+    font-variation-settings: "opsz" 96, "SOFT" 40;
+  }
+  h3, h4 {
+    font-variation-settings: "opsz" 36, "SOFT" 30;
+  }
+}
+
+@layer components {
+  /* small uppercase label, but in Fraunces small-caps style (not mono) */
+  .label {
+    @apply font-display text-[12.5px] text-graphite;
+    font-variation-settings: "opsz" 14, "SOFT" 30;
+  }
+  .label-ink {
+    @apply font-display text-[12.5px] text-ink;
+    font-variation-settings: "opsz" 14, "SOFT" 30;
+  }
+
+  .eyebrow {
+    @apply font-display italic text-[22px] text-petrol;
+    font-variation-settings: "opsz" 28, "SOFT" 30;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 px-3.5 py-1.5 border border-ink/80 text-ink font-display text-[14.5px] transition-colors;
+  }
+  .btn:hover {
+    @apply bg-ink text-paper;
+  }
+  .btn-primary {
+    @apply bg-ink text-paper border-ink;
+  }
+  .btn-primary:hover {
+    @apply bg-petrol border-petrol;
+  }
+
+  .code-block {
+    @apply bg-chrome text-paper/95 font-mono text-[12.5px] leading-relaxed p-4 overflow-x-auto;
+  }
+
+  .anchor-offset {
+    scroll-margin-top: 72px;
+  }
+}
