@@ -11,6 +11,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!website/src/lib/
 lib64/
 parts/
 sdist/
@@ -37,6 +38,7 @@ env/
 
 # Data directories (symlinks and data)
 data/
+!website/src/data/
 data-orin
 boreas-skip-bev
 kitti-bev-skip
