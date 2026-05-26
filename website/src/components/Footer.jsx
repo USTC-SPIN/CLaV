@@ -6,7 +6,7 @@ export default function Footer() {
           University of Science and Technology of China · School of Artificial Intelligence and Data Science · Suzhou Institute for Advanced Research
         </div>
         <div className="flex items-center gap-5 font-display text-[12px] text-graphite shrink-0">
-          <a className="hover:text-ink" href="https://github.com/Patience-Joey/clav" target="_blank" rel="noreferrer">Code ↗</a>
+          <a className="hover:text-ink" href="https://github.com/USTC-SPIN/CLaV" target="_blank" rel="noreferrer">Code ↗</a>
           <a className="hover:text-ink" href="#top">Top</a>
           <span className="italic">© 2026</span>
         </div>

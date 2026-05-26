@@ -1,7 +1,7 @@
 # C-LaV Project Page
 
 Static project page for **C-LaV** (CVPR 2026) — deployed to GitHub Pages at
-<https://patience-joey.github.io/clav/> via the workflow in `.github/workflows/deploy.yml`.
+<https://ustc-spin.github.io/CLaV/> via the workflow in `.github/workflows/deploy.yml`.
 
 ## Layout
 

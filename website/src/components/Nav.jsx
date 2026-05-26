@@ -61,7 +61,7 @@ export default function Nav() {
         </ul>
         <a
           className="ml-auto font-display text-[15px] text-graphite hover:text-ink"
-          href="https://github.com/Patience-Joey/clav"
+          href="https://github.com/USTC-SPIN/CLaV"
           target="_blank"
           rel="noreferrer"
         >

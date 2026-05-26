@@ -11,7 +11,7 @@
 ¹School of Artificial Intelligence and Data Science, University of Science and Technology of China &nbsp;·&nbsp;
 ²Suzhou Institute for Advanced Research, USTC &nbsp;·&nbsp; &dagger;Corresponding author
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-clav-0e5468?style=for-the-badge)](https://patience-joey.github.io/clav/)
+[![Project Page](https://img.shields.io/badge/Project%20Page-clav-0e5468?style=for-the-badge)](https://ustc-spin.github.io/CLaV/)
 [![HuggingFace Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-xueweicao%2Fclav-yellow?style=for-the-badge)](https://huggingface.co/xueweicao/clav)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
@@ -21,12 +21,12 @@
 
 > **Abstract.** LiDAR-based place recognition is highly sensitive to rain, snow, and fog, where scattering and attenuation distort geometric structure and intensity. We tackle this problem with **Conditional Latent Velocity Field (C-LaV) denoising**, which restores weather-robust representations *before* retrieval. Single-sweep point clouds are projected into three-channel bird's-eye-view (BEV) images and encoded with a frozen DINOv2-based BEV transformer to obtain a semantically anchored latent space shared across weather conditions. On this manifold, a conditional Flow-Matching model learns a velocity field whose probability-flow ODE deterministically transports noisy latents toward their clear-weather counterparts. From the denoised manifold, a Sinkhorn Aggregation of Local Descriptors (SALAD) head produces compact global descriptors optimised with a truncated Smooth-AP loss. We also establish a unified adverse-weather benchmark with 3 m frame spacing and shared evaluation thresholds across KITTI, NCLT, and Boreas. Our C-LaV improves Recall@1 by **17.5%** on NCLT snow and **21.5%** on Boreas, achieving state-of-the-art weather robustness.
 
-For the full method, results, and an interactive demo, see the **[project page](https://patience-joey.github.io/clav/)**.
+For the full method, results, and an interactive demo, see the **[project page](https://ustc-spin.github.io/CLaV/)**.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/Patience-Joey/clav.git && cd clav
+git clone https://github.com/USTC-SPIN/CLaV.git && cd CLaV
 
 # Pre-trained weights
 python -c "
