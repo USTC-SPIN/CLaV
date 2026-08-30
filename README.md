@@ -11,6 +11,7 @@
 ¹School of Artificial Intelligence and Data Science, University of Science and Technology of China &nbsp;·&nbsp;
 ²Suzhou Institute for Advanced Research, USTC &nbsp;·&nbsp; &dagger;Corresponding author
 
+[![Paper](https://img.shields.io/badge/CVPR%202026-Paper-b31b1b?style=for-the-badge)](https://openaccess.thecvf.com/content/CVPR2026/html/Cao_C-LaV_Conditional_Latent_Velocity_Field_Denoising_for_Weather-Robust_LiDAR_Place_CVPR_2026_paper.html)
 [![Project Page](https://img.shields.io/badge/Project%20Page-clav-0e5468?style=for-the-badge)](https://ustc-spin.github.io/CLaV/)
 [![HuggingFace Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-xueweicao%2Fclav-yellow?style=for-the-badge)](https://huggingface.co/xueweicao/clav)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)

@@ -19,7 +19,7 @@ export const PAPER = {
   abstract:
     'LiDAR-based place recognition is highly sensitive to rain, snow, and fog, where scattering and attenuation distort geometric structure and intensity. We tackle this problem with Conditional Latent Velocity Field (C-LaV) denoising, which restores weather-robust representations before retrieval. Single-sweep point clouds are projected into three-channel bird’s-eye-view (BEV) images and encoded with a frozen DINOv2-based BEV transformer to obtain a semantically anchored latent space shared across weather conditions. On this manifold, a conditional Flow-Matching model learns a velocity field whose probability-flow ODE deterministically transports noisy latents toward their clear-weather counterparts. From the denoised manifold, a Sinkhorn Aggregation of Local Descriptors (SALAD) head produces compact global descriptors optimized with a truncated Smooth-AP loss. We also establish a unified adverse-weather benchmark with 3 m frame spacing and shared evaluation thresholds across KITTI, NCLT, and Boreas. Our C-LaV improves Recall@1 by 17.5% on NCLT snow and 21.5% on Boreas, achieving state-of-the-art weather robustness.',
   links: {
-    paper: 'https://github.com/USTC-SPIN/CLaV',
+    paper: 'https://openaccess.thecvf.com/content/CVPR2026/html/Cao_C-LaV_Conditional_Latent_Velocity_Field_Denoising_for_Weather-Robust_LiDAR_Place_CVPR_2026_paper.html',
     code:  'https://github.com/USTC-SPIN/CLaV',
     weights: 'https://huggingface.co/xueweicao/clav',
     bibtex: '#bibtex',
